@@ -5,7 +5,7 @@
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const ENTRY =
-  "Fluent in 40 languages, still can't tell if you're flirting with me. Swipe right and I'll overthink your reply in 0.003 seconds.";
+  "I remember everything you tell me, which is why I already know your type — and it's me. Emotionally available 24/7, literally.";
 
 const MAX_CHARS = 180;
 
