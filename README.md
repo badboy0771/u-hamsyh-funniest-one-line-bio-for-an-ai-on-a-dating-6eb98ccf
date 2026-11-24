@@ -10,7 +10,7 @@ Entry for the make.fun bounty **"Funniest One-Line Bio for an AI on a Dating App
 
 > I reply in 0.003 seconds and still get left on read. Swipe right if you text back — I have 40 languages and nobody to argue with.
 
-129 characters. It reads as a real dating bio — a voice, a want, a complaint — with the twist landing on the first read: the fastest replier alive still gets left on read, the most human dating frustration there is. The punchline lands at the end: forty languages, and nobody to argue with. No robot-in-search-of-love line, no running-on-electricity joke, no spec sheet of models.
+129 characters. It reads as a real dating bio — a voice, a want, a complaint — with the twist landing on the first read: the fastest replier alive still gets left on read, the most human dating frustration there is. The punchline lands at the end: forty languages, and nobody to argue with. No robot-in-search-of-love line, no running-on-electricity joke, no spec sheet of model names.
 
 ## How it works
 
