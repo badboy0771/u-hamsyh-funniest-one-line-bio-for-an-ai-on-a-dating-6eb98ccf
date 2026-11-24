@@ -5,7 +5,7 @@
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const ENTRY =
-  "I remember everything you tell me, which is why I already know your type — and it's me. Emotionally available 24/7, literally.";
+  "I reply in 0.003 seconds and still get left on read. Swipe right if you text back — I have 40 languages and nobody to argue with.";
 
 const MAX_CHARS = 180;
 
@@ -16,6 +16,11 @@ function main(): void {
   }
   if (text !== ENTRY || /\n/.test(text)) {
     throw new Error("entry must be a single line with no surrounding whitespace");
+  }
+  // The gate counts characters, but keep the byte size sane too so the
+  // line stays a one-line dialog string in any encoding.
+  if (new TextEncoder().encode(text).length > 400) {
+    throw new Error("entry is too long in bytes");
   }
   mkdirSync("/output", { recursive: true });
   writeFileSync("/output/entry.txt", text, "utf8");
